@@ -6,9 +6,9 @@
 # find the largest difference in the pairs array 
 # print the index of the low number of the pair as the buy day
 # print teh index of the high number of the pair as the sell day
-require "pry" 
+ 
 
-stock_prices = [17,3,6,9,15,8,6,1,10]
+stock_prices = [17,3,6,9,15,8,6,13,24,11,9,3,4,3,14,15,16,17,7,18,23,20,17,3,6,9,15,8,6,13,24,11,9,3,4,3,14,15,16,17,7,18,33,20]
 
 def stock_picker(stock_prices)
     pairs = []
